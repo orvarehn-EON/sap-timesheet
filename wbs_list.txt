@@ -1,0 +1,12 @@
+# List of valid WBS elements for booking time, one per line.
+# The FIRST entry is used as the default WBS_ELEMENT (see config.py) and
+# also becomes the top item in the dropdown list for the "Receiver WBS
+# element" column in the generated Excel sheet.
+#
+# Lines starting with # and blank lines are ignored.
+#Salesforce Operations / Maintenance
+0201.A00102.001.20
+#Salesforce New Development / Changes 
+0201.P00363.100.01
+#Salesforce Incidents (INC)
+0201.A00102.001.10
